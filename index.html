@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Subscription</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+      <div class="image"></div>
+      <div class="text">
+        <p>start for free & get <br/> offers today!</p>
+      </div>
+    </div>
+    <form id="form">
+      <div class="social">
+         <div class="title">get started</div>
+         <div class="signIn">
+           <p>already have an account?</p>
+           <span>sign in</span>
+         </div>
+         <div class="btn">
+           <div class="btn-1">
+             <img src="https://img.icons8.com/color/30/000000/google-logo.png"/>
+             Sign Up
+           </div>
+           <div class="btn-2">
+            <img src="https://img.icons8.com/glyph-neue/30/ffffff/facebook-new.png"/>
+             Sign Up
+           </div>
+         </div>
+         <div class="or">or</div>
+         <p class="create-account">create an account</p>
+      </div>
+     
+
+      <!--input user-->
+      <div>
+        <label for="username">User name</label>
+        <i class="fas fa-user"></i>
+
+        <input 
+            type="text"
+            name="username"
+            id="username"
+            placeholder="John Doe"
+        />
+        <i class="fas fa-exclamation-circle failure-icon" ></i>
+        <i class="fas fa-check-circle success-icon"></i>
+
+          <div class="error"></div>
+      </div>
+
+       <!--input email-->
+
+      <div>
+        <label for="email">Email</label>
+        <i class="fas fa-envelope"></i>
+
+        <input 
+            type="email"
+            name="email"
+            id="email"
+            placeholder="abc@gmail.com"
+        />
+        <i class="fas fa-exclamation-circle failure-icon" ></i>
+        <i class="fas fa-check-circle success-icon"></i>
+
+          <div class="error"></div>
+
+      </div>
+
+         <!--password input-->
+      <div>
+        <label for="password">Password</label>
+        <i class="fas fa-lock"></i>
+
+        <input 
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+        />
+        <i class="fas fa-exclamation-circle failure-icon" ></i>
+        <i class="fas fa-check-circle success-icon"></i>
+
+          <div class="error"></div>
+
+      </div>
+      <button id="btn" type="submit">Submit</button>
+    </form>
+  </div>
+ 
+</body>
+ <script src="main.js"></script>
+
+</html>
