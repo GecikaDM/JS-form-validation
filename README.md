@@ -1,5 +1,15 @@
 # JS form validation
 
-![mobileView1](./views/mobileView1.png)
-![mobileView2](./views/mobileView2.png)
+
 ![desktopView](./views/desktopView.png)
+
+
+
+
+![mobileView11](./views/mobileView11.png) ![mobileView21](./views/mobileView21.png)
+
+
+
+
+
+
