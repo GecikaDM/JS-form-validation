@@ -1,6 +1,7 @@
 console.log('init');
 
 let id = (id) => document.getElementById(id);
+ 
 
 let classes = (classes) => document.getElementsByClassName(classes);
 
@@ -11,18 +12,21 @@ let username = id("username"),
     errorMsg = classes("error"),
     successIcon = classes("success-icon"),
     failureIcon = classes("failure-icon");
-
+ 
   
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  
 
   engine(username, 0, "Username intput cannot be empty");
   engine(email, 1, "Email intput cannot be empty");
   engine(password, 2, "Password intput cannot be empty");
   
+  e.target.reset();
+  
 });
 
-  
+ 
 
 /* checking severals values*/
 let engine = (id, serial, message ) => {
